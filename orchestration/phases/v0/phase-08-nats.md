@@ -1,12 +1,5 @@
 # Phase 08 — NATS JetStream Event Architecture
 
-> **Current state:** Partially implemented. JetStream subjects, publishing,
-> durable consumers, and ACK/NAK handling exist. Active production flow uses
-> scan lifecycle events, but graph construction still calls discovery directly;
-> the documented resource-event-to-graph pipeline is not wired. Current
-> application configuration uses one delivery attempt, so production redelivery
-> and dead-letter semantics are not established.
-
 ## Objective
 
 Introduce NATS JetStream as the asynchronous event backbone of WeaveLens.

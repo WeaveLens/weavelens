@@ -1,12 +1,5 @@
 # Phase 07 — gRPC Contracts
 
-> **Current state:** Preparatory only. Versioned protobuf contracts and
-> handwritten in-process adapters exist, but generated `*.pb.go`, the gRPC Go
-> dependency, a network listener, and service registration are absent. Current
-> adapters must not be described as a real gRPC runtime. The handwritten scan
-> request supports multiple regions while the discovery proto still models one,
-> so contracts must be reconciled before any extraction.
-
 ## Objective
 
 Introduce Protocol Buffers and gRPC as the synchronous application/service contract.

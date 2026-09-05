@@ -1,12 +1,5 @@
 # Phase 12 — Observability & Security
 
-> **Current state:** Partially implemented. Structured logging, health/readiness,
-> connection status, request IDs, API-key middleware, security headers, and
-> credential redaction exist. OpenTelemetry tracing, production metrics export,
-> attached HTTP access logging, audit logging, and additional production
-> hardening described below remain follow-up work; the declared trace ID context
-> is not currently populated.
-
 ## Objective
 
 Prepare WeaveLens for production-style operation.

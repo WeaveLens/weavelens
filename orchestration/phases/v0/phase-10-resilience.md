@@ -1,11 +1,5 @@
 # Phase 10 — Concurrency & Resilience
 
-> **Current state:** Partially implemented. The discovery resilience package
-> contains bounded workers, retry with exponential backoff/jitter, and rate
-> limiting. Cancellation and shutdown paths are race-tested. These helpers are
-> not integrated into the active sequential discovery loop; circuit breaking,
-> exported metrics, and real scan cancellation remain follow-up work.
-
 ## Objective
 
 Improve AWS scanning performance and reliability using Go concurrency and distributed-system resilience patterns.
@@ -84,7 +78,7 @@ Test:
 * partial scanner failure;
 * context propagation.
 
-## Original Acceptance Criteria (Not Fully Met)
+## Acceptance Criteria
 
 Multiple AWS resource scanners can operate concurrently with bounded resource usage and safe cancellation.
 

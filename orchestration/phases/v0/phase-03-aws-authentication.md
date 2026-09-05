@@ -1,11 +1,5 @@
 # Phase 03 — AWS Authentication & Credential Strategy
 
-> **Current state:** Implemented. Profile/default credentials, AssumeRole,
-> identity verification, LocalStack endpoints, and connection status are wired
-> through the current application startup path. The provider explicitly tries
-> profile `weavelens` before the SDK default profile, and typed classification of
-> AssumeRole/STS failures remains incomplete.
-
 ## Role
 
 You are a senior Go engineer specializing in AWS identity and security.

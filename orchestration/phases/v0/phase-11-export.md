@@ -1,15 +1,8 @@
 # Phase 11 — Graph Export
 
-> **Current state:** Partially implemented. Existing scans can be exported
-> through the application/HTTP flow, with graph encoders for JSON, Draw.io, and
-> SVG. PNG is not implemented, export can trigger discovery when no graph is
-> cached/persisted, and resource tags are not currently restored into export.
-
 ## Objective
 
-Allow users to export a generated infrastructure graph, preferably without
-rescanning AWS. The current implementation can rediscover when no cached or
-persisted graph is available.
+Allow users to export a generated infrastructure graph without rescanning AWS.
 
 ## Formats
 

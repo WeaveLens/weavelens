@@ -1,9 +1,5 @@
 # Phase 00 — Project Foundation
 
-> **Current state:** Implemented. This document is the historical bootstrap
-> brief; the repository, current toolchain, and root documentation are now the
-> source of truth.
-
 ## Role
 
 You are a senior Go engineer working on the WeaveLens project.
@@ -37,7 +33,7 @@ The initial implementation MUST remain a modular monolith.
 
 Create:
 
-* `go.mod` with the repository's current Go 1.25 directive
+* `go.mod` with Go 1.26
 * appropriate Go version
 * basic module configuration
 

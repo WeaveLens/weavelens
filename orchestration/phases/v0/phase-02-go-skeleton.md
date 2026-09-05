@@ -1,10 +1,5 @@
 # Phase 02 — Go Application Skeleton
 
-> **Current state:** Implemented. The executable is `cmd/weavelens`, with domain,
-> application, infrastructure, and transport packages under `internal/`. NATS
-> is now required during startup, and `/ready` currently reports process
-> readiness without checking dependencies.
-
 ## Objective
 
 Create the runnable WeaveLens Go application around the domain layer.

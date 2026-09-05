@@ -1,15 +1,5 @@
 # Phase 05 — AWS Resource Discovery
 
-> **Current state:** Implemented and expanded. Discovery now uses scanner and
-> relationship registries rather than a central hard-coded constructor/rule
-> list. The current registry contains 22 scanners, including API Gateway,
-> CloudFront, KMS, Route 53, Step Functions, Transit Gateway, load balancer
-> listeners/target groups/target health, and EC2/ENI relationships. Consult
-> `internal/infrastructure/aws/discovery/` for the authoritative resource set.
-> Remaining gaps include sequential scanner execution, missing provider/account
-> fields on canonical resources, and partial scanner errors completing the scan
-> without a distinct partial-success status.
-
 ## Role
 
 You are a senior Go engineer specializing in cloud infrastructure discovery and clean architecture.

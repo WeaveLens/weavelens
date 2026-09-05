@@ -8,8 +8,7 @@ WeaveLens is an infrastructure observability tool that discovers AWS resources, 
 - **Relationship Mapping**: Builds a graph of resource relationships (contains, connects to, depends on, etc.)
 - **Web Visualization**: Interactive graph visualization using Cytoscape.js
 - **Graph Export**: Export infrastructure graphs as JSON, Draw.io, or SVG
-- **Concurrent Scanning**: Bounded worker pool for parallel AWS API calls
-- **Resilience**: Retry with exponential backoff, rate limiting, and graceful handling of throttling
+- **Resilience Primitives**: Bounded workers, retry/backoff, and rate limiting are available for incremental integration into discovery
 - **Security**: Secret redaction, security headers, API key authentication, and credential source tracking
 
 ## Architecture
@@ -38,7 +37,7 @@ WeaveLens is an infrastructure observability tool that discovers AWS resources, 
 
 ## Prerequisites
 
-- Go 1.24+
+- Go 1.25+
 - Node.js 18+ (for web frontend)
 - NATS Server with JetStream enabled
 - AWS credentials configured

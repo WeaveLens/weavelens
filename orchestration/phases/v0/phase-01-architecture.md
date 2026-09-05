@@ -1,10 +1,5 @@
 # Phase 01 — Architecture & Domain Model
 
-> **Current state:** Mostly implemented. The domain remains independent of AWS
-> SDK, HTTP, gRPC, and NATS under `internal/domain/`; the modular-monolith
-> boundary is still active. Graph execution is in-memory, while scan records,
-> graph snapshots, and layouts are now persisted to JSON by application services.
-
 ## Objective
 
 Define the core WeaveLens domain model independently from AWS SDK, transport protocols, and infrastructure.

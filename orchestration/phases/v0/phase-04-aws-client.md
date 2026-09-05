@@ -1,9 +1,5 @@
 # Phase 04 — AWS Client & Infrastructure Layer
 
-> **Current state:** Implemented and expanded. Typed AWS SDK v2 clients and test
-> interfaces now cover every scanner registered by the discovery layer; the
-> original limited client list in this brief is no longer exhaustive.
-
 ## Role
 
 You are a senior Go engineer specializing in AWS SDK architecture.

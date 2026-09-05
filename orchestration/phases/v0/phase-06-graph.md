@@ -1,10 +1,5 @@
 # Phase 06 — Infrastructure Graph Engine
 
-> **Current state:** Implemented. Graph construction, filtering, traversal,
-> snapshots, and export helpers live under `internal/domain/graph` and the
-> application graph service. Active topology is in-memory, while scan and graph
-> snapshots are persisted in capped JSON history.
-
 ## Objective
 
 Build the graph engine that transforms discovered resources and relationships into an in-memory infrastructure topology.
